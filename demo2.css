@@ -1,0 +1,519 @@
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: gainsboro;
+}
+
+.Main_container {
+    display: flex;
+    flex-direction: row;
+    background-color: gainsboro;
+}
+
+.Left_Container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 70%;
+    height: 350vh;
+    padding: 20px;
+}
+
+.Img_1Row {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 45vh;
+}
+
+.img_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    position: relative;
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    padding: 5px;
+    background-image: url(./dominos/tri0678.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color: white;
+}
+.img_1_one{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    position: relative;
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    padding: 5px;
+    background-image: url(./dominos/SILITEL-80.jpeg);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color: white;
+
+}
+.img_1_two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    position: relative;
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    padding: 5px;
+    background-image: url(./dominos/tri0678.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color: white;
+
+}
+.img_1_three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    position: relative;
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    padding: 5px;
+    background-image: url(./dominos/sitared_m_50_500_tablet_15s_460149_0_0.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color: white;
+
+
+}
+
+.Img_2Row {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 45vh;
+    margin-top: 60px;
+}
+
+.img_2_one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    padding: 5px;
+    position: relative;
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    background-image: url(./dominos/bev0016_1_1.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color: white;
+}
+.img_2_two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    padding: 5px;
+    position: relative;
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    background-image: url(./dominos/Benadryl_Cough_Formula_50ml_copy_1024x1024@2x.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color: white;
+
+}
+.img_2_three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    padding: 5px;
+    position: relative;
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    background-image: url(./dominos/gelusil_mps_syrup_200ml_0.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color: white;
+
+}
+
+.Img_3Row {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 45vh;
+    margin-top: 60px;
+}
+
+.img_3_one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    padding: 5px;
+    position: relative;
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    background-image: url(./dominos/cip0428.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color: white;
+}
+.img_3_two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    padding: 5px;
+    position: relative;
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    background-image: url(./dominos/92785-1-1000.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color: white;
+
+}
+.img_3_three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    padding: 5px;
+    position: relative;
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    background-image: url(./dominos/zytee-rb-lotion-10-ml-3-1641536683.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color: white;
+
+}
+
+.Img_4Row {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 45vh;
+    margin-top: 60px;
+}
+
+.img_4_one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    padding: 5px;
+    position: relative;
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    background-image: url(./dominos/ciplox-eye-ointment-500x500.png);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color: white;
+}
+.img_4_two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    padding: 5px;
+    position: relative;
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    background-image: url(./dominos/ciplox_d_eye_ear_drops_10ml_0.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color: white;
+
+}
+.img_4-three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    padding: 5px;
+    position: relative;
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    background-image: url(./dominos/zox0006.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color: white;
+
+}
+
+.Img_5Row {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 45vh;
+    margin-top: 60px;
+}
+
+.img_5_one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    padding: 5px;
+    position: relative;
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    background-image: url(./dominos/MUPI0099_L.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color: white;
+}
+.img_5-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    padding: 5px;
+    position: relative;
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    background-image: url(./dominos/acnedap_gel_15gm_0.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color: white;
+
+}
+.img_5_three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    padding: 5px;
+    position: relative;
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    background-image: url(./dominos/net45156.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color: white;
+
+}
+
+.Img_6Row {
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 45vh;
+    margin-top: 60px;
+}
+
+.img_6_one {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    padding: 5px;
+    position: relative;
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    background-image: url(./dominos/zig0031.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color: white;
+}
+.img_6_two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    padding: 5px;
+    position: relative;
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    background-image: url(./dominos/concor-5mg-tablet-10-s_52392856-5bd0-4444-9787-576bee239c9d.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color: white;
+
+}
+.img_6_three{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: space-between;
+    padding: 5px;
+    position: relative;
+    width: 20%;
+    height: 100%;
+    border: 1px solid black;
+    background-image: url(./dominos/ols0025.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color: white;
+
+
+}
+
+.Text_Rt {
+    text-align: start;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    color: white;
+    margin-top: 10vh;
+}
+
+.Text_Dis {
+    font-size: x-small;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 5vh;
+    text-align: start;
+}
+
+.Text_Dis2 {
+    font-size: xx-small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: start;
+}
+
+.Text_Dis3 {
+    font-size: small;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.Butt_AD {
+    border: 1px solid green;
+    background-color: white;
+    color: green;
+    width: 40%;
+    height: 4vh;
+    font-size: xx-small;
+    margin-top: 10px;
+    margin-left: 15vh;
+}
+
+.sticky_left {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 60vh;
+    background-image: url(./dominos/b40f5caca57f36f0d2c72a2679a93d2c.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-content: space-around;
+}
+
+.left_container {
+    position: relative;
+    width: 20%;
+    height: 300vh;
+    margin-top: 25vh;
+    
+}
+
+.Navbar_F {
+    display: flex;
+    justify-content: row;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 15vh;
+    border: 1px solid red;
+    background-color:white
+}
+
+.Navbar_Fl {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+}
+
+.Navbar_Fr {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 40%;
+    margin-left: 40%;
+    color: white;
+}
+
+.label {
+    margin-top: 2vh;
+    color: black;
+    
+}
+
+.Navbar_S {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    width: 100%;
+    height: 6vh;
+    border: 1px solid red;
+    top: 8vh;
+}
+
+.Nav_flex {
+    position: sticky;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.Navbar_F2{
+    padding: 5rem;
+    background-color:white;
+    padding-top: 5rem;
+}
+.name_F{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    color: black
+}
+.nanded{
+    color: black;
+}
+.number{
+    color: black;
+}
